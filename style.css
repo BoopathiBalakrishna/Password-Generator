@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+.container{
+    background:#f0f0f0;
+    width:400px;
+    height:400px;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top:20px;
+    padding:25px;
+
+}
+
+.container form{
+
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.form-group{
+    margin:10px;
+
+}
+
+.form-group input{
+    padding:8px;
+    font-size:15px;
+    outline:none;
+    border:none;
+    border-radius:10px;
+    border:1px solid blue;
+}
+
+#copy-button{
+    padding:8px 20px;
+    margin-left:10px;
+    border:none;
+    background:red;
+    border-radius:5px;
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.form-group label{
+    
+    color:black;
+    margin-left:5px;
+}
+
+#copy-button:hover{
+    background:green;
+}
+
+#number{
+    cursor:pointer;
+}
+
+#capital{
+    cursor:pointer;
+}
+
+#small{
+    cursor:pointer;
+}
+
+
+#symbol{
+    cursor:pointer;
+}
+
+#generate-btn{
+    padding:8px 10px;
+    border:none;
+    background:red;
+    color:white;
+    border-radius:5px;
+    font-size:15px;
+    cursor:pointer;
+
+}
+
+#generate-btn:hover{
+    background:green;
+}
